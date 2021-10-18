@@ -1,0 +1,28 @@
+//Add node to Binary Search Tree
+void BinarySearchTree::addNode(Node* node, Course course) {
+	if (node->course.courseNum.compare(course.courseNum) > 0) {
+		if (node->left == nullptr) {
+			node->left = new Node(course);
+		}
+		else {
+			this->addNode(node->left, course);
+		}
+	}
+	else {
+		if (node->right == nullptr) {
+			node->right = new Node(course);
+		}
+		else {
+			this->addNode(node->right, course);
+		}
+	}
+}
+
+//Print course list in order
+void BinarySearchTree::inOrder(Node* node) {
+	if (node != nullptr) {
+		inOrder(node->left);
+		cout << node->course.courseNum << ", " << node->course.courseName << endl;
+		inOrder(node->right);
+	}
+}
