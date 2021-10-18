@@ -1,0 +1,41 @@
+Evaluate run-time and memory of data structures
+Vector run-time:
+7 lines
+11 function calls
+11N+7
+Hash table run-time:
+7 lines
+12 function calls
+12N+7
+Tree run-time:
+16 lines
+17 function calls
+17N+16
+
+Advantages and disadvantages of each structure:
+Vector:
+A vector data structure is quick to be filled and created. It is also simple to program for. It has many built in functions as well
+that can be used to do different functions with the data contained in the vector. When it comes to sorting the vector is more
+difficult and takes longer to sort the items within and can have different methods of sorting with different speeds and levels of
+accuracy. Vectors also take up more memory and can become unwieldly for larger collections of data.
+Hash tables:
+These can be based off vectors or linked lists and offer a faster method of finding an item contained within. Hash tables take more
+resources to build but can offer a more secure data structure as it can store items with an order from a key which can be configured
+following a hashing of data. This can then make a data structure that more securely can hold things like passwords or other personal
+information that needs to be stored securely. Hash tables are a slower to use data structure though because of these more secure
+features as it requires creation of keys and the usage of these keys and the need to decrypt the hash if a more secure hash is used.
+Depending on whether a vector or linked list is used to build the hash table the flaws of these data structures can also arise in the
+usage of a hash table.
+Trees:
+These data structures are very quick for finding an item in the structure, they also make it easy to quickly export a sorted list
+of all the items contained within it. The tree does take longer to fill as it needs to find the correct location for each item as
+it is added to the tree but this then eliminates the time needed to sort if a sorted list is required. They can take longer if a
+previously sorted list is put into a tree as this data pushes deeper than a randomly sorted tree would sort things.
+
+Recommendation
+For this project I would use a Tree to store the information. This is because of the speed with which the information can be accessed
+since it is sorted as it is added into the data structure. Also since the amount of information in the data structure is not
+frequently fluctuating in theory the slowest aspect of this data structure would only happen once while the faster capabilities would
+be the more frequent utilization and would make for a better optimized program for the course list. This information also does not
+necessarily need to be secured, the main benefit of the hash table, and the tree data structure would be a faster structure than a
+vector for this information.
