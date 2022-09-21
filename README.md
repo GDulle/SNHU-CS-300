@@ -1,6 +1,6 @@
 # SNHU-CS-300
 
-**What was the problem you were solving in the projects for this course?**
+**What was the problem you were solving in the projects for this course?**<br />
 In these project a school advising team needed software to organize classes for a degree path. This program needed to store the course number, name and any prerequisites for the classes in this degree path and make it possible to print a list of the courses sorted alphanumerically by the course numbers as well as to search for a class by it's course number and print the information about this course including the course number, name, and any prerequisites.
 
 **How did you approach the problem?**
